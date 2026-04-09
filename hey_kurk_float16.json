@@ -1,12 +1,16 @@
 {
   "type": "micro",
-  "wake_word": "hey_kurk",
-  "author": "Kirk",
+  "wake_word": "hey kurk",
+  "author": "kirk",
   "website": "",
-  "model": "https://github.com/Osmosis3529/personal_custom_wake_word/raw/refs/heads/main/hey_kurk_float16.tflite",
+  "model": "hey_kurk_float16.tflite",
   "version": 2,
+  "trained_languages": ["en"],
   "micro": {
     "probability_cutoff": 0.97,
-    "sliding_window_size": 5
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7"
   }
 }
