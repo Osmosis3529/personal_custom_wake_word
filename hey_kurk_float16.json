@@ -3,7 +3,7 @@
   "wake_word": "hey_kurk",
   "author": "Kirk",
   "website": "",
-  "model": "hey_kurk_float16.tflite",
+  "model": "https://github.com/Osmosis3529/personal_custom_wake_word/raw/refs/heads/main/hey_kurk_float16.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.97,
